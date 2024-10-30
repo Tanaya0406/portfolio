@@ -1,0 +1,38 @@
+footer {
+    background:linear-gradient(to bottom ,#000000,rgb(52, 52, 75)) ;
+    color: #f0f0f0;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #205364; /* Logo color */
+    text-decoration: none;
+}
+
+.permalinks {
+    list-style: none;
+    padding: 0;
+}
+
+.permalinks li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.permalinks a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.footer__socials a {
+    color: #f0f0f0;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.footer__copyright {
+    margin-top: 1rem;
+}

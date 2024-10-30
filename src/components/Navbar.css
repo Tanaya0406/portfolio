@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+ 
+    background:linear-gradient(to top ,#000000,rgb(52, 52, 75)) ;
+    justify-content: center;
+}
+
+.navbar a {
+    color: #f0f0f0;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a.active {
+    color: #7ac8e2; /* Highlight color for active link */
+}
+
+.navbar a:hover {
+    color: #9dd8f7; /* Slightly lighter hover color */
+}

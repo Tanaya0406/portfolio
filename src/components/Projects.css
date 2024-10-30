@@ -1,0 +1,94 @@
+/* Main Container */
+#projects {
+    padding: 3rem 1rem;
+    background:linear-gradient(#264c58,#f9f9f9) ;
+    color: #333;
+  }
+  
+  #projects h3 {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  #projects h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 2rem;
+  }
+  
+  /* Container for all portfolio items */
+  .portfolio__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  /* Portfolio Item Styling */
+  .portfolio__item {
+    background: #f1eaea;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+    overflow: hidden;
+  }
+  
+  .portfolio__item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Image Styling */
+  .portfolio__item-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 2px solid #f0f0f0;
+    box-shadow:2px 0px 0px 2px #000000;
+  }
+  
+  /* Title and Technology Stack */
+  .portfolio__item h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+    color: #333;
+    
+  }
+  
+  .portfolio__item small {
+    color: #777;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  /* Button Styling */
+  .portfolio__item-cta {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .portfolio__item-cta .btn {
+    padding: 0.5rem 1.25rem;
+    background-color: #1d3053;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .portfolio__item-cta .btn:hover {
+    background-color: #0056b3;
+  }
+  

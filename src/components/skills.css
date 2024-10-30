@@ -1,0 +1,96 @@
+/* Skills Section */
+#experience {
+    padding: 4rem 0;
+    background:linear-gradient(#264c58,#f9f9f9) ;
+    text-align: center;
+  }
+  
+  #experience h5 {
+    color: var(--color-primary);
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
+  #experience h2 {
+    font-size: 2.5rem;
+    color: #111;
+    margin: 0.5rem 0 2rem;
+  }
+  
+  /* Container */
+  .experience__container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .experience__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 500px;
+    background:linear-gradient(to left ,#96beca,#f9f9f9) ;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Skill Details */
+  .experience__details {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .experience__details-icon {
+    font-size: 2rem;
+  }
+  
+  /* Icon Colors */
+  .html-icon {
+    color: #e34c26;
+  }
+  
+  .css-icon {
+    color: #1572b6;
+  }
+  
+  .js-icon {
+    color: #f0db4f;
+  }
+  
+  .bootstrap-icon {
+    color: #563d7c;
+  }
+  
+  .react-icon {
+    color: #61dafb;
+  }
+  
+  .jquery-icon {
+    color: #0769ad;
+  }
+  
+  /* Skill Text */
+  .experience__details h4 {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .experience__details small {
+    font-size: 0.85rem;
+    color: #666;
+  }
+  
+  /* Responsive Adjustments */
+  @media screen and (max-width: 768px) {
+    .experience__container {
+      padding: 0 1rem;
+    }
+  
+    .experience__content {
+      max-width: 100%;
+    }
+  }
+  
